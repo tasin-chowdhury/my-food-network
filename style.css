@@ -96,9 +96,8 @@ footer h3{
     color: rgb(161, 170, 80);
 }
 #foodie{
-    
-  background: -webkit-linear-gradient(rgb(224, 185, 149), rgb(233, 32, 5));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(rgb(224, 185, 149), rgb(233, 32, 5));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
