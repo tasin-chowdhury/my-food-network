@@ -1,21 +1,27 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
 #diet{
     color: orange;
 }
-.container{
+section{
     display: flex;
+}
+.container{
     width: 90%;
+    padding-bottom: 10px;  
 }
 .half-width{
     width: 50%;
-    padding: 5%;
+    padding-left: 5%;
+    
     
 }
 h1{
     font-size:50px;
 }
-img{
-    height:500px;
-    width: 450px;
+.half-width img{
+    width: 80%;
 }
 p{
     text-align: justify;
@@ -24,7 +30,7 @@ p{
 .container{
     
     margin: 0 ;
-    display: flex;    
+    display: flex; 
 }
 .top-banner{
     background-image: url(images/banner1.jpg);
@@ -32,6 +38,7 @@ p{
     background-size: 6300px 600px;
     padding: 3%;
     margin: 0;
+    width: 100%;
 }
 .second-banner{
     background-image: url(images/banner2.jpg);
@@ -39,6 +46,7 @@ p{
     background-size: 6300px 600px;
     padding: 3%;
     margin: 0;
+    width: 100%;
 }
 a{
     text-decoration: none;
@@ -46,6 +54,5 @@ a{
     padding: 3%;
     border-radius: 50px;
     color:rgb(59, 16, 20);
-    font-weight: 700;
-    
+    font-weight: 700;  
 }
