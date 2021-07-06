@@ -1,3 +1,51 @@
 #diet{
     color: orange;
 }
+.container{
+    display: flex;
+    width: 90%;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+    
+}
+h1{
+    font-size:50px;
+}
+img{
+    height:500px;
+    width: 450px;
+}
+p{
+    text-align: justify;
+    padding-bottom: 5%;
+}
+.container{
+    
+    margin: 0 ;
+    display: flex;    
+}
+.top-banner{
+    background-image: url(images/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: 6300px 600px;
+    padding: 3%;
+    margin: 0;
+}
+.second-banner{
+    background-image: url(images/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: 6300px 600px;
+    padding: 3%;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 3%;
+    border-radius: 50px;
+    color:rgb(59, 16, 20);
+    font-weight: 700;
+    
+}
