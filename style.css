@@ -100,4 +100,8 @@ footer h3{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.bonus{
+    text-align: center;
+    padding-left: 300px;
+}
 
